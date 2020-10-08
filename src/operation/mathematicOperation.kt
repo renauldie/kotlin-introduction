@@ -5,7 +5,7 @@ fun main() {
     val result = 10 / 3
     println(result)
 
-    val result2 = 10 + 10 / 2
+    val result2 = 10 + (10 / 2)
     println(result2)
 
     // Augmented Assignment
@@ -15,7 +15,7 @@ fun main() {
 //    //total = total + barang1
 //    total += barang1
 //    println("Price Total 1: $total")
-//
+////
 //    val barang2 = 200
 //    //total = total + barang2
 //    total += barang2

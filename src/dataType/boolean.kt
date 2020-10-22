@@ -1,7 +1,7 @@
 package dataType
 
 fun main() {
-    var benar: Boolean = false
+    var benar: Boolean = true
     var salah: Boolean = false
 
     if (benar == true){

@@ -35,7 +35,6 @@ fun Int.tunjanganAnak(gaji: Int) : Int{
 
 fun Int.pajak(gaji: Int) {
     var total = (this + gaji)
-
     //pajak
     if (gaji >= 2_000_000) {
         total  = (gaji * 0.10).toInt()

@@ -1,4 +1,4 @@
-package collection
+package basic.collections
 
 data class Barang(val nama: String,
                   val kategori: String,

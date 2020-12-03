@@ -1,4 +1,4 @@
-package scope
+package basic.scope
 
 class Mahasiswa {
     var nama: String = "Muhamad Renauldi"

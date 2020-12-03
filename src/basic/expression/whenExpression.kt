@@ -1,4 +1,4 @@
-package comparisonExpression
+package basic.expression
 
 fun main() {
 

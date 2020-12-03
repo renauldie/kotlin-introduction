@@ -1,4 +1,4 @@
-package scope
+package basic.scope
 
 fun main() {
     val mahasiswa: String = Mahasiswa().let {

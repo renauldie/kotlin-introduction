@@ -1,4 +1,4 @@
-package collection
+package basic.collection
 
 fun main() {
     val angka = HashSet<Int>()

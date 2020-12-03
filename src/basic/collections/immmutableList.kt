@@ -1,4 +1,4 @@
-package collection
+package basic.collection
 
 fun main() {
     var nama = listOf("Muhammad", "Renauldi")

@@ -1,4 +1,4 @@
-package basic.collection
+package basic.collections
 
 fun main() {
     val brg = Barang("Rinso", "Detergen", 10000)

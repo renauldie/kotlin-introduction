@@ -1,4 +1,4 @@
-package basic.collection
+package basic.collections
 
 fun main() {
     val buah = HashMap <Char, String>()

@@ -1,5 +1,7 @@
 package oop.classIntro
 
+import java.util.*
+
 class Kalkulator(n1: Int, n2: Int) {
 
     var point1: Int
@@ -32,8 +34,6 @@ class Kalkulator(n1: Int, n2: Int) {
         println("Hasil Pembagian adalah : ${bagi()}")
     }
 
-    fun print() {
-    }
 
 }
 

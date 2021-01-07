@@ -4,11 +4,9 @@ const val APPLICATION = "Dummy Apps!"
 const val VERSION = "x.0.1"
 
 fun main() {
-    val firstName:String = "Ren"
-    val age = 30
+    val firstName:String = "Ryn"
 
     println(firstName)
-    println(age)
 
 //    var name: String? = null
 //    //name = "Reynn"

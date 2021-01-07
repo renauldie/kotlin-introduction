@@ -21,7 +21,7 @@ class latihanPenggahian {
 fun main() {
     val bm = latihanPenggahian()
 
-    var reg = bm.BiayaMahasiswa(24)
+    bm.BiayaMahasiswa(24)
 
     var inter = bm.BiayaMahasiswa(24, 4_000_000)
 }

@@ -2,7 +2,7 @@ package dataType
 
 fun main() {
     var char1: Char = 'R'
-    var char2: Char = 'E'
+    var char2: Char = 'Y'
     var char3: Char = 'N'
 
     print(char1)

@@ -1,10 +1,9 @@
 package dataType
 
 fun main() {
-    var benar: Boolean = true
-    var salah: Boolean = false
+    var test: Boolean = false
 
-    if (benar == true){
+    if (test == true){
         print("ini benar")
     } else {
         print("ini salah")

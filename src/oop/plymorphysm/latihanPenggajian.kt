@@ -1,9 +1,9 @@
 package oop.plymorphysm
 
-class latihanPenggahian {
+class latihanPenggajian {
 
-    val sppTetap = 1_200_000
-    val sppVariable = 100_000
+    private val sppTetap = 1_200_000
+    private val sppVariable = 100_000
 
     fun BiayaMahasiswa(sks: Int, sppStudi: Int) {
         var total = sppTetap + (sks * sppVariable) + sppStudi
@@ -19,9 +19,9 @@ class latihanPenggahian {
 
 
 fun main() {
-    val bm = latihanPenggahian()
+    val bm = latihanPenggajian()
 
     bm.BiayaMahasiswa(24)
-
-    var inter = bm.BiayaMahasiswa(24, 4_000_000)
+    bm.BiayaMahasiswa(24, 4_000_000)
 }
+//081334644495

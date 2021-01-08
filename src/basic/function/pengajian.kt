@@ -42,7 +42,7 @@ fun penggajian(gajiPokok: Int, anak: Int) {
         tunjanganAnak = (gajiPokok * (1 * 0.05)).toInt()
     } else if (anak == 2) {
         tunjanganAnak = (gajiPokok * (2 * 0.05)).toInt()
-    } else if (anak == 3) {
+    } else if (anak >= 3) {
         tunjanganAnak = (gajiPokok * (3 * 0.05)).toInt()
     } else if (anak == 0) {
         tunjanganAnak = 0
@@ -55,7 +55,7 @@ fun penggajian(gajiPokok: Int, anak: Int) {
         pajak = (gajiPokok * 0.10).toInt()
     } else if (gajiPokok > 1_000_000 && gajiPokok < 2_000_000) {
         pajak = (gajiPokok * 0.05).toInt()
-    } else if (gajiPokok > 1_000_000) {
+    } else if (gajiPokok <= 1_000_000) {
         pajak = 0
     }
 
